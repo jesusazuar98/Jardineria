@@ -1,3 +1,7 @@
+<?php
+    include_once 'user.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,8 +46,8 @@
 
                     echo "<div class='correcto'> <p>Datos correctos</p>";
                 };
-                echo "</div>";
-            
+
+
 
             };
         ?>
@@ -56,6 +60,11 @@
 
 
     </form>
+
+    <?php
+        $db= new Database();
+        $db->conectar();
+    ?>
 
     <br>
     <a href="index.php">Volver al incio</a>

@@ -11,12 +11,14 @@
     <h1>Jardineria</h1>
     <h2>
     <?php
-        echo "Me parto la polla";
+        echo "NOS VAMOS A COMER A TODOS ";
     ?></h2>
 
     <br>
 
     <a href="inicio_sesion.php">Inciar sesion</a>
+    <a href="crear_usuario.php">Crear cuenta</a>
+
 
 
 
