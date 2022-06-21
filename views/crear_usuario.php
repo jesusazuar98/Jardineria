@@ -1,6 +1,3 @@
-<?php
-    include_once 'utils/user.php';
-?>
 
 <!DOCTYPE html>
 <html lang="en">
